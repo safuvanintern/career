@@ -5,6 +5,13 @@
 
 }
 
+.wrapper {
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+
 /* .wrapper{
     width: 80%;
     max-width: 1500px;
@@ -23,7 +30,8 @@
     left: 0;
 
 }
-.careers-details-title-section{
+
+.careers-details-title-section {
     background-image: url("images/aidevimage.jpg");
 
     align-items: center;
@@ -80,10 +88,10 @@
 
 .career-container {
     margin: 10px;
-    height: 365px;
-    width: 285px;
+    height: 420px;
+    width: 425px;
     border: 1px solid #f1592a;
-    
+
     /* border: solid 1px #eee; */
     background-color: transparent;
     border-radius: 15px;
@@ -96,14 +104,14 @@
 
 .career-container h2 {
     padding: 15px;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 600 !important;
     font-family: "Raleway", sans-serif;
     /* display: flex;
     justify-content: center;
     align-items: center; */
     text-align: center;
-    
+
 
 }
 
@@ -120,7 +128,7 @@
     color: #888;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.9;
 }
 
@@ -146,7 +154,7 @@
     padding: 10px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .career-container:hover {
@@ -181,7 +189,7 @@
 }
 
 .popup-content {
-    
+
     /* align-items: center; */
     background-color: #fff;
     padding: 30px;
@@ -204,6 +212,7 @@
     border-radius: 7px;
     cursor: pointer;
 }
+
 label {
     display: block;
     margin: 10px 0 5px;
@@ -269,12 +278,14 @@ input::placeholder {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
-.column{
+
+.column {
     padding: 15px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.location-title h3{
+
+.location-title h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -284,36 +295,42 @@ input::placeholder {
     font-size: 20px;
     color: #f05a28;
 }
+
 .column-item {
-    width: 40%;
+    width: 35%;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid #f05a28; 
+    border: 1px solid #f05a28;
     margin-right: 30px;
 }
+
 .column-item h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    
+
 }
+
 .column-item ul li {
-    padding: 10px;
-    font-size: 15px;
+    padding: 7px;
+    font-size: 17px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
-.column-item ul svg{
+
+.column-item ul svg {
     padding: 10px;
     font-size: 15px;
     color: #f05a28;
 }
+
 .key-items {
     margin-left: 20px;
     display: flex;
     align-items: center;
 }
-.apply-btn svg{
+
+.apply-btn svg {
     margin-left: 5px;
     margin-top: 5px;
 }
